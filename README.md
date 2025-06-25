@@ -1,1 +1,1 @@
-# FDSAssignment1
+This project implements a distributed key-value store that maintains causal consistency using Vector Clocks. Each node stores data locally, attaches vector clocks to messages, and ensures that write operations are only applied when all causal dependencies are met. It demonstrates how distributed systems can maintain event ordering beyond simple timestamps.
